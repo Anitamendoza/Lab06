@@ -11,7 +11,8 @@
                         <StackLayout>
                           <Button x:Name="Item12" Text="ListViewDemo"/>
                           <Button x:Name="Item13" Text="ListviewCode"/>
-                       </StackLayout>
+                          <Button x:Name="Item15" Text="ListviewGroup"/>
+                </StackLayout>
                     </StackLayout>
         </StackLayout>
     </ContentPage.Content>
