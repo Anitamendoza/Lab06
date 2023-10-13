@@ -15,7 +15,9 @@
                                   TextColor="Blue"
                                   />
                     </DataTemplate>
+                    
                 </ListView.ItemTemplate>
+                
             </ListView>
         </StackLayout>
     </ContentPage.Content>
