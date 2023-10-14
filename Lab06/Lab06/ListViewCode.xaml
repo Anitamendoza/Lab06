@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab06.ListViewCode">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Click show list" Clicked="Button_Clicked"></Button>
+        <StackLayout Padding="5">
+            <Button Text="Click show list" Clicked="Button_Clicked" BackgroundColor="Purple"></Button>
             <ListView x:Name="listView">
             </ListView>
         </StackLayout>

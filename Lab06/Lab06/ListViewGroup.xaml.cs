@@ -17,19 +17,19 @@ namespace Lab06
             // Agregar tres alumnos con nombres y apellidos diferentes a la Sección A
             groupA.Add(new Estudiante
             {
-                Nombres = "Juan",
-                Apellidos = "Pérez",
+                Nombres = "Ana",
+                Apellidos = "Mendoza",
                 Edad = 20
             });
             groupA.Add(new Estudiante
             {
-                Nombres = "María",
-                Apellidos = "González",
+                Nombres = "Cristina",
+                Apellidos = "Cordova",
                 Edad = 22
             });
             groupA.Add(new Estudiante
             {
-                Nombres = "Carlos",
+                Nombres = "Pamela",
                 Apellidos = "Martínez",
                 Edad = 19
             });
@@ -37,26 +37,26 @@ namespace Lab06
             // Agregar cuatro alumnos con nombres y apellidos diferentes a la Sección B
             groupB.Add(new Estudiante
             {
-                Nombres = "Luis",
-                Apellidos = "Ramírez",
+                Nombres = "Delia",
+                Apellidos = "Llamuco",
                 Edad = 21
             });
             groupB.Add(new Estudiante
             {
-                Nombres = "Ana",
-                Apellidos = "Sánchez",
+                Nombres = "Giane",
+                Apellidos = "Uscamayta",
                 Edad = 23
             });
             groupB.Add(new Estudiante
             {
-                Nombres = "Pedro",
-                Apellidos = "López",
+                Nombres = "Anny",
+                Apellidos = "Landeon",
                 Edad = 20
             });
             groupB.Add(new Estudiante
             {
-                Nombres = "Sofía",
-                Apellidos = "Fernández",
+                Nombres = "Rossy",
+                Apellidos = "Vasquez",
                 Edad = 24
             });
 
@@ -64,31 +64,31 @@ namespace Lab06
             groupC.Add(new Estudiante
             {
                 Nombres = "Eduardo",
-                Apellidos = "Díaz",
+                Apellidos = "Mendoza",
                 Edad = 22
             });
             groupC.Add(new Estudiante
             {
-                Nombres = "Laura",
+                Nombres = "Moises",
                 Apellidos = "Torres",
                 Edad = 23
             });
             groupC.Add(new Estudiante
             {
-                Nombres = "Roberto",
+                Nombres = "Sarai",
                 Apellidos = "Hernández",
                 Edad = 19
             });
             groupC.Add(new Estudiante
             {
-                Nombres = "Isabel",
+                Nombres = "Fernando",
                 Apellidos = "Pérez",
                 Edad = 21
             });
             groupC.Add(new Estudiante
             {
-                Nombres = "Miguel",
-                Apellidos = "Gómez",
+                Nombres = "Jhonny",
+                Apellidos = "Chanco",
                 Edad = 20
             });
 
@@ -102,12 +102,12 @@ namespace Lab06
                     var label = new Label
                     {
                         FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                        TextColor = Color.Black
+                        TextColor = Color.White
                     };
                     label.SetBinding(Label.TextProperty, "Nombre");
                     return new StackLayout
                     {
-                        BackgroundColor = Color.LightGray,
+                        BackgroundColor = Color.Purple,
                         Padding = new Thickness(10),
                         Children = { label }
                     };
@@ -116,21 +116,21 @@ namespace Lab06
                 {
                     var nombresLabel = new Label
                     {
-                        TextColor = Color.Black,
+                        TextColor = Color.Violet,
                         FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label))
                     };
                     nombresLabel.SetBinding(Label.TextProperty, "Nombres");
 
                     var apellidosLabel = new Label
                     {
-                        TextColor = Color.Black,
+                        TextColor = Color.Violet,
                         FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label))
                     };
                     apellidosLabel.SetBinding(Label.TextProperty, "Apellidos");
 
                     var edadLabel = new Label
                     {
-                        TextColor = Color.Red,
+                        TextColor = Color.Pink,
                         FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
                     };
                     edadLabel.SetBinding(Label.TextProperty, "Edad");

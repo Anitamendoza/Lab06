@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab06.ListViewSource">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="5">
             <ListView x:Name="EmployeeView"
                       ItemsSource="{Binding Employees}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding DisplayName}"
-                                  Detail="Anita"
+                                  Detail="Anita Mendoza"
                                   DetailColor="Red"
                                   TextColor="Blue"
                                   />

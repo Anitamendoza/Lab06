@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab06.MainPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="5">
             <StackLayout>
-                <Button x:Name="Item14" Text="ListviewSource"/>
+                <Button x:Name="Item14" Text="ListviewSource" BackgroundColor="Purple"/>
             </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <StackLayout>
-                          <Button x:Name="Item12" Text="ListViewDemo"/>
-                          <Button x:Name="Item13" Text="ListviewCode"/>
-                          <Button x:Name="Item15" Text="ListviewGroup"/>
+                          <Button x:Name="Item12" Text="ListViewDemo" BackgroundColor="Purple"/>
+                    <Button x:Name="Item13" Text="ListviewCode"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item15" Text="ListviewGroup"  BackgroundColor="Purple"/>
                 </StackLayout>
                     </StackLayout>
         </StackLayout>
